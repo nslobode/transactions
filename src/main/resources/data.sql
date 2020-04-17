@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user (
+  id BIGINT AUTO_INCREMENT  PRIMARY KEY,
+  money BIGINT
+);
+
+INSERT INTO user (id, money) VALUES
+  (11, 1000),
+  (22, 2000),
+  (33, 3000);
